@@ -8,5 +8,5 @@ import { ProductListComponent } from './components/product-list/product-list';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('online-store');
+  protected readonly title = signal('kaspi');
 }
