@@ -1,0 +1,10 @@
+<h2>Photos</h2>
+
+<div class="photo-grid">
+  <div class="photo-card" *ngFor="let photo of photos$ | async">
+    <img [src]="photo.thumbnailUrl">
+    <p>{{ photo.title }}</p>
+  </div>
+</div>
+
+<button (click)="back()">Back</button>

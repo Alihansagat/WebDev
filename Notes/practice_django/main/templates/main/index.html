@@ -1,0 +1,12 @@
+{% extends "main/layout.html" %}
+
+{% block title %}Main Page{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Main Page</h1>
+        <p>Welcome to the main page!</p>
+        <button class="btn btn-warning">Swing to about page</button>
+    </div>
+    {% include "main/test.html" %}
+{% endblock %}

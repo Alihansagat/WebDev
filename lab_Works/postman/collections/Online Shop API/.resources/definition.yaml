@@ -1,0 +1,4 @@
+$kind: collection
+description: Collection for Online Shop API with Categories and Products
+variables:
+  base_url: http://localhost:8000

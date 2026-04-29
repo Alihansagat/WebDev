@@ -1,0 +1,14 @@
+# Use this workspace to collaborate
+workspace:
+  id: ""
+
+localResources:
+  collections:
+    - ../lab9/OnlineShopAPI.postman_collection.json
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
+cloudResources:
+  collections:
+    ../postman/collections/Online Shop API: 2ec1dc3d-ac6d-4c5d-9a8e-9d8dce3d42f2
+    ../postman/collections/Online Shop API Copy: 303174b0-f28d-4f89-bcc0-175e6f63d304

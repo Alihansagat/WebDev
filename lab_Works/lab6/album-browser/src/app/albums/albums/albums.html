@@ -1,0 +1,20 @@
+<h2>Albums</h2>
+
+<!-- Loading spinner -->
+<div *ngIf="loading" class="loading">Loading albums...</div>
+
+<!-- Albums grid -->
+<div class="album-list">
+  <div class="album-card" *ngFor="let item of albums">
+
+    <!-- Preview image -->
+    <img *ngIf="item.thumbnail" [src]="item.thumbnail" alt="Preview" class="album-thumbnail">
+
+    <a [routerLink]="['/albums', item.album.id]">
+      <strong>#{{ item.album.id }}</strong>
+      <p>{{ item.album.title }}</p>
+    </a>
+
+    <button (click)="delete(item.album.id)">Delete</button>
+  </div>
+</div>

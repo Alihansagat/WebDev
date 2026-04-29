@@ -1,0 +1,37 @@
+footer {
+    background-color: #806d6d;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .copy {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #126316;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer input {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+footer button {
+    padding: 8px 16px;
+    background-color: #29445f;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #1e2d3c;
+}

@@ -1,0 +1,6 @@
+<h2>Add the notes</h2>
+
+<input type="text" [(ngModel)]="newNote().title" placeholder="Note Title">
+<textarea [(ngModel)]="newNote().content" placeholder="Note Content"></textarea><br>
+
+<button (click)="addNote()">Add Note</button>
